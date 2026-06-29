@@ -113,7 +113,7 @@ if ss.page == "Predictor":
 
     c1, c2 = st.columns([1, 1.4])
     with c1:
-        components.html(heart_html(prob, height=320), height=330)
+        components.html(heart_html(prob, height=380), height=400, scrolling=False)
     with c2:
         st.markdown(f'<div style="font:700 12px Nunito;color:#B09C95;letter-spacing:.04em;">'
                     f'● LIVE · {MODELS[ss.model]}</div>'
